@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="Validation.css" />
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+          crossorigin="anonymous"
+        />
+        <title>Form Validation</title>
+    </head>
+    <body>
+        <div class="box">
+            <div class="form">
+            <div>
+            <label for="name">Name</label>
+            <i class="fas fa-user"></i>
+            <input type="text" id="name">
+            </div>
+            <br>
+            <div>
+            <label for="email">Email</label>
+            <i class="far fa-envelope"></i>
+            <input type="email" id="email">
+            </div>
+            <br>
+            <div>
+            <label for="password">Password</label>
+            <i class="fas fa-lock"></i>
+            <input type="password" id="password">
+            </div>
+            <br>
+            <div>
+            <label>Dob</label>
+            <input type="date" id="date">
+            </div>
+            <br>
+            <div>
+            <input type="checkbox" id="che"><br>
+            Accept terms & Conditions
+            <br><br>
+            </div>
+            <input type="submit" id="ll" onclick="func()">
+        </div>
+        </div>
+        <br><br>
+        <table id="11" border="4" style="margin-left: auto;
+        margin-right: auto;">
+            <tr>
+                <td>Name</td>
+                <td>Email</td>
+                <td>Password</td>
+                <td>Dob</td>
+                <td>Accepted terms?</td>
+            </tr>
+        </table>
+    </body>
+    <script src="Validation.js"></script>
+</html>
